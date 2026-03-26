@@ -25,7 +25,6 @@ code --install-extension oldjobobo.lumon-theme
 - `391` TextMate scopes themed
 - `52` semantic token selectors themed
 - Semantic highlighting enabled by the theme
-- Coverage aligned across Miasma, Lumon, and Retro-82
 
 ## Notes
 

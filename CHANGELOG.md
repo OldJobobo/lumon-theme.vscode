@@ -6,6 +6,13 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 ## [Unreleased]
 
+## [0.0.6] - 2026-03-26
+
+### Changed
+- Refined the Marketplace README copy.
+
+## [0.0.5] - 2026-03-25
+
 ### Changed
 - Expanded syntax highlighting coverage to match the extended TextMate scope set used in the companion Miasma and Retro-82 themes.
 - Added semantic token coverage and enabled semantic highlighting for stronger symbol separation across supported languages.
