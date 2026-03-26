@@ -2,12 +2,13 @@
   "name": "lumon-theme",
   "displayName": "Lumon Theme",
   "description": "Lumon color theme for VS Code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "oldjobobo",
   "license": "MIT",
+  "icon": "lumon-theme-icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OldJobobo/omarchy-lumon-theme.git"
+    "url": "https://github.com/OldJobobo/lumon-theme.vscode.git"
   },
   "engines": {
     "vscode": "^1.80.0"

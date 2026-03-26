@@ -1,8 +1,8 @@
 # Lumon Theme
 
-Lumon is a VS Code theme based on the Lumon Industries aesthetic from *Severance*.
+Lumon for VS Code.
 
-It is adapted from the Lumon theme for Omarchy and carries over the same sterile corporate blues, pale icy highlights, and restrained contrast.
+Built from the Lumon palette and tuned for stronger syntax and semantic highlighting across the languages most people actually use.
 
 ![Lumon Theme preview](./preview.png)
 
@@ -14,23 +14,20 @@ Install from the VS Code Marketplace:
 code --install-extension oldjobobo.lumon-theme
 ```
 
-Or install a local `.vsix` directly:
-
-```bash
-code --install-extension ./lumon-theme-*.vsix
-```
-
-## Use
-
-1. Open `Preferences: Color Theme`
-2. Select `Lumon`
-
 ## Included
 
-- Full VS Code workbench theming
-- Syntax highlighting for standard TextMate scopes
-- Semantic highlighting support for symbol-aware languages
+- Dark Lumon UI theme
+- Semantic highlighting support
+- Expanded syntax highlighting coverage for Rust, JavaScript, TypeScript, Python, Shell, Markdown, CSS, JSON, TOML, YAML, HTML, Lua, and diff views
+
+## Highlighting Coverage
+
+- `391` TextMate scopes themed
+- `52` semantic token selectors themed
+- Semantic highlighting enabled by the theme
+- Coverage aligned across Miasma, Lumon, and Retro-82
 
 ## Notes
 
-Lumon is a dark theme.
+- Semantic highlighting is enabled by the theme.
+- The theme is intended to keep the Lumon feel while improving symbol separation and readability in real projects.
