@@ -1,0 +1,43 @@
+{
+  "name": "lumon-theme",
+  "displayName": "Lumon Theme",
+  "description": "Lumon color theme for VS Code",
+  "version": "0.0.3",
+  "publisher": "oldjobobo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OldJobobo/omarchy-lumon-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn --no-dependencies",
+    "version:patch": "npm version patch",
+    "version:minor": "npm version minor",
+    "version:major": "npm version major",
+    "release:patch": "npm version patch && vsce package --no-yarn --no-dependencies",
+    "release:minor": "npm version minor && vsce package --no-yarn --no-dependencies",
+    "release:major": "npm version major && vsce package --no-yarn --no-dependencies",
+    "publish:smart": "bash ./scripts/publish-smart.sh",
+    "publish:smart:minor": "bash ./scripts/publish-smart.sh minor",
+    "publish:smart:major": "bash ./scripts/publish-smart.sh major",
+    "pub": "bash ./scripts/publish-smart.sh",
+    "pubm": "bash ./scripts/publish-smart.sh minor",
+    "pubM": "bash ./scripts/publish-smart.sh major"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lumon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lumon-color-theme.json",
+        "semanticHighlighting": true
+      }
+    ]
+  }
+}
