@@ -2,7 +2,7 @@
   "name": "lumon-theme",
   "displayName": "Lumon Theme",
   "description": "Lumon color theme for VS Code",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "oldjobobo",
   "license": "MIT",
   "icon": "lumon-theme-icon.png",
